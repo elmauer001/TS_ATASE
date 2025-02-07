@@ -1,9 +1,3 @@
-/* CSS reset */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,16 +15,25 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+
+/* General Style */
+body{
+	background: #fff url(http://atase.free.nf/slike/pozadina1.png) no-repeat center center fixed;
 	line-height: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+    height: 100%;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -47,17 +50,7 @@ table {
 	border-spacing: 0;
 }
 
-/* General Style */
-body{
-	background: #fff url(http://atase.free.nf/slike/pozadina1.png) no-repeat center center fixed;
-	/*/home/vol6_2/infinityfree.com/if0_38183638*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	overflow: hidden;
-    height: 100%;
-}
+
 /*Scrollbar*/
 body::-webkit-scrollbar {
     width: 1em;
@@ -75,7 +68,29 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 15px;
 }
 
+/* Welcome message styling */
+.welcome-message {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.welcome-message h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.welcome-message p {
+    font-size: 1.5em; 
+}
 	
 
 
