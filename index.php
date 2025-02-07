@@ -5,9 +5,8 @@
   <link rel="stylesheet" href="css/fakeLoader.css">
 </head>
 <body>
-	<!-- Welcome Message -->
 	<div class="welcome-message">
-		<h1>Dobrodošlo na stranicu benda!</h1>
+		<h1>Dobrodošli na stranicu benda!</h1>
 		<p>Drago nam je da ste ovdje.</p>
 	</div>
 
